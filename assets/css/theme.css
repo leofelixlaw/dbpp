@@ -27,7 +27,7 @@ a:hover,
 .search_form button:hover,
 .owl-theme .owl-nav [class*="owl-"]:hover,
 .program_info li {
-	color: #FFCB04;
+	color: #004b8e;
 }
 
 .btn-default,
@@ -67,12 +67,12 @@ a:hover,
 }
 
 .text_default {
-	color: #FFCB04 !important
+	color: #004b8e !important
 }
 
 .custom-control-input:checked~.custom-control-label::before {
-	border-color: #FFCB04;
-	background-color: #FFCB04;
+	border-color: #004b8e;
+	background-color: #004b8e;
 	box-shadow: none;
 }
 
@@ -115,12 +115,12 @@ a:hover,
 
 .spinner,
 .spinner-small {
-	border-top-color: #FFCB04;
+	border-top-color: #004b8e;
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link.active:hover {
-	border-bottom-color: #FFCB04;
+	border-bottom-color: #004b8e;
 }
 
 .bg_grey {
