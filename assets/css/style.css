@@ -382,7 +382,7 @@ header.light_skin.nav-fixed .social_icons li a:hover { color: rgb(14, 147, 216);
 marquee { display: block; }
 .news_ticker a { padding: 0px 10px; }
 .news_ticker a:hover { color: rgb(255, 255, 255); }
-.full_screen, .full_screen .carousel-item { min-height: 100vh; }
+.full_screen, .full_screen .carousel-item { min-height: 85vh; }
 .banner_content_wrap .carousel-item { padding: 100px 0px; }
 .banner_content_wrap.banner_py_large .carousel-item { padding: 200px 0px; }
 .banner_content h2 { font-size: 50px; margin-bottom: 20px; vertical-align: bottom; }
