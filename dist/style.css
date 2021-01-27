@@ -3649,7 +3649,7 @@ footer p { font-size: 14px; }
 .links_style2 li a::before { content: ""; font-family: Ionicons; font-size: 18px; vertical-align: middle; margin-right: 10px; }
 .contact_info > li > i { font-size: 18px; vertical-align: middle; max-width: 30px; width: 100%; text-align: left; margin-right: 5px; }
 .contact_info li:first-child { margin-top: 0px; }
-.contact_info > li { margin-top: 15px; display: flex; align-items: center; }
+.contact_info > li { margin-top: 15px; display: flex; align-items: start; }
 .contact_info i + *, .contact_info span + * { font-size: 14px; color: rgb(136, 136, 136); margin: 0px; vertical-align: top; }
 footer .widget_title { font-size: 18px; margin-top: 10px; }
 .widget_title { margin-bottom: 20px; text-transform: capitalize; position: relative; }
@@ -8526,11 +8526,12 @@ a:hover,
 }
 
 .btn-default:hover {
-	background-color: #DF9C00;
+  background-color: #ffe100;
+  color: #004b8e !important;
 }
 
 .btn-default:hover {
-	border-color: #DF9C00;
+	border-color: #ffe100;
 }
 
 .text_default {
@@ -8613,6 +8614,13 @@ a:hover,
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+}
+.theme-sec{
+  color: #ffe100;
+}
+.theme-sec:hover{
+  color: #ffe100;
+  text-decoration: underline;
 }
 /* -------------------------------------------------
   max-width: 1400px
@@ -13099,11 +13107,11 @@ a:hover,
 }
 
 .btn-default:hover {
-	background-color: #DF9C00;
+	background-color: #ffe100;
 }
 
 .btn-default:hover {
-	border-color: #DF9C00;
+	border-color: #ffe100;
 }
 
 .text_default {
